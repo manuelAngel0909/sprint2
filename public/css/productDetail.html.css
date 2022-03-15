@@ -55,6 +55,7 @@ height: 6vh;border:dotted red 3px;
  background-position: center;
  margin-bottom: 10px;
  box-sizing: border-box;
+
   /* /*Cosas nuevas agregadas.
   display: flex;
   justify-content: space-between;
@@ -89,10 +90,13 @@ height: 6vh;border:dotted red 3px;
   grid-row-start: 1; 
   grid-row-end: 3;
   text-align: left;
-  max-width: 85%;
+  width: 860px;
+  max-height: 408px;
   box-sizing: border-box;
   padding: 0 20px 0 0;
-  margin: auto;
+
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .hamburguer{
@@ -135,16 +139,52 @@ box-sizing: border-box;
 
 
 .cont-descripcion-button-formulario{
-  background-color: yellow;
+  
   max-width: 1200px;
   display: flex;
 } 
+.cont-button-read-contacto{
+  display: flex;
+  justify-content: space-around;
+ margin-bottom: 40px;
+
+}
+.s-sub-cont-button-read{
+  display: flex;
+  margin-top: 1%;
+  margin-right: 40px;
+}
+
+
+.readMore_btn{
+  margin-top: 30%;
+  padding: 20px;
+  align-items: center;
+}
+.button-contacto{
+  display: flex;
+  height: 80px;
+  width: 80%;
+  justify-content: space-around;
+}
+.button-c{
+  display: inline-block;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
 .sub-descripcionYbutton{
-  background-color:greenyellow;
   text-align: left;
 }
 .s-sub-cont-descripcion{
-  background-color:salmon;
   display: inline-block;
    max-width: 100%;
 
@@ -158,8 +198,7 @@ box-sizing: border-box;
 }
 
 .s-sub-cont-button-read{
-  background-color:salmon;
-  margin-left: 80%;
+  margin-left: 8%;
 }
 .sub-cont-formulario{
   background-color:red;
@@ -177,12 +216,14 @@ h1{
   
 
 }
-.cont-formulario{
-  display: grid;
+.sub-cont-formulario{
+  /* display: grid;
   grid-template-rows: 200px 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
-  text-align: justify;  
+  text-align: justify;   */
+  border-radius: 50px 0 50px 0 / 100px 0 100px 0;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px;
 }
 .formulario{
   grid-column-start: 10; 
@@ -232,11 +273,35 @@ font-size: 20px;
   text-align: center;
  
 }
-.input{
-  align-self: start;
-  margin-left:20px;
+.huespedesk{
+  display: inline-block;
+  justify-content: space-around;
+  color: blue;
+  margin-right: 5px;
+  padding: 15px;
+  text-align: left;
 }
-
+.huespedMY{
+  display: inline-block;
+  justify-content: space-around;
+  color: blue;
+  margin-right: 5px;
+  padding: 15px;
+  text-align: left;
+}
+.button-send{
+  display: inline-block;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-left: 1%;
+}
 
 
 h1 {
@@ -280,7 +345,18 @@ p {
 .show{
   display: block;
 }
+.fotos-small-grid{
 
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 10fr;
+  grid-gap: 15px;
+  width: 1200px;
+ justify-content:stretch;
+ background-position: center;
+ margin-bottom: 10px;
+ box-sizing: border-box;
+}
 @media(min-width:460px){
   .copy-div{
     display: flex;
@@ -310,10 +386,13 @@ p {
 }
 @media(max-width:768px){
      .cont-descripcion-button-formulario{
-    background-color:black;
+   
     flex-direction: column;
-
-  }
+    margin-top: 40px;
+     }
+     .cont-button-read-contacto{
+       flex-direction: column;
+     }
 
 }
 
@@ -328,15 +407,22 @@ p {
   
   .img1{
     display: block;
+
   }
   .img2 {
-    display: block;
+    display: none;
     grid-column-start: 3; 
     grid-column-end: 3; 
     grid-row-start: 1; 
     grid-row-end: 3;
     text-align: left;
     padding: 1px;
+    margin-left: 20px;
         }
-     
+     .sub-cont-formulario{
+      position: relative;
+      right: 0.04%;
+      bottom: 200px;
+
+     }
 }
