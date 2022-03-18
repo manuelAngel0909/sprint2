@@ -651,6 +651,123 @@ text-align:  left;
   bottom: 400px;
   font-size: 30px;
 }
+.txt-val-leer{
+  width: 1200px;
+  text-align: right;
+  font-size: 20px;
+}
+.cont-pre-footer{
+  color: blue;
+  text-align: justify;
+  font-size: 40px;
+  position: relative;
+  bottom: 260px;
+  display: table;
+  height: 100px;
+  width: 400px;
+  margin: 2rem auto;
+}
+.cont-pre-footer p{
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 15px;
+  text-align: center;
+  background-color: salmon;
+
+}
+.foot-cont{
+  display: flex;
+  position: relative;
+  bottom:200px;
+  text-decoration: none;
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+}
+.foot-a{
+  width: 400px;
+  text-decoration: none;
+}
+.foot-a ul {
+  text-decoration: none;
+
+}
+.foot-a ul li {
+  list-style-type: none;
+  padding: 30px;
+}
+.foot-b{
+  text-decoration: none;
+}
+.foot-b ul {
+  text-decoration: none;
+}
+.foot-b ul li{
+  list-style-type: none;
+  padding: 30px;
+}
+.foot-b{
+  width: 400px;
+  text-decoration: none;
+}
+.foot-c{
+  width: 400px;
+  text-decoration: none;
+}
+.foot-c ul li{
+  list-style: none;
+  padding: 30px;
+}
+.foot-enc{
+  font-size: 26px;
+}
+#face{
+  transform: scale(.1);
+  position: relative;
+  bottom: 250px;
+  right: 270px;
+}
+.txt-face{
+  position: relative;
+  bottom: 520px;
+  left:20px;
+}
+#twit{
+  transform: scale(.1);
+  position: relative;
+  bottom: 750px;
+  right: 270px;
+}
+.txt-twit{
+  position: relative;
+  bottom: 1020px;
+  left:20px;
+}
+#yout{
+  transform: scale(.1);
+  position: relative;
+  bottom: 1255px;
+  right: 270px;
+}
+.txt-yout{
+  position: relative;
+  bottom: 1525px;
+  left:20px;
+}
+#inst{
+  transform: scale(.1);
+  position: relative;
+  bottom: 1760px;
+  right: 270px;
+}
+.txt-inst{
+  position: relative;
+  bottom: 2025px;
+  left:20px;
+}
+
 @media(min-width:460px){
   .copy-div{
     display: flex;
@@ -685,7 +802,11 @@ text-align:  left;
 }
 
 @media(max-width:460px){
-
+  .txt-val-leer{
+    width: 800px;
+    text-align: right;
+    font-size: 20px;
+  }
   .gallery-container{
     
     width: 800px;
