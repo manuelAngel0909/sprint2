@@ -5,7 +5,7 @@ const path = require('path')
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve(__dirname,"./views/productDetail.html"));
+  res.sendFile(path.resolve(__dirname,"./views/product-Detail.html"));
 
 });
 

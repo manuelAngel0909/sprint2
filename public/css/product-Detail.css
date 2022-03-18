@@ -17,7 +17,6 @@ body{
 }
 
 .main-header{
-  border:dotted red 3px;
   padding: 3px;
 }
 .nav-bar-arriba{
@@ -27,20 +26,26 @@ display: flex;
 justify-content: space-between;
 position: relative;
 align-items: flex-start;
-height: 6vh;border:dotted red 3px;
+
 }
 
 
 .copy-div{
+  display: flex;
   font-weight: 40;
   text-align: right;
   margin-right: 16px;
   display: flex;
   font-size: 12px;
   padding: 16px 10px 16px 0;
-  display: none;
+  
 }
 .copyP{
+  margin-right: 15px;
+  font-size: 20px;
+}
+.copyI{
+  font-size: 20px;
   margin-right: 15px;
 }
 
@@ -245,7 +250,6 @@ font-size: 20px;
   text-align: left;
 }
 .nom{
-  background-color: rgb(175, 245, 154);
   width: 80%;
   padding: 4px;
   margin-left: 20px;
@@ -769,16 +773,9 @@ text-align:  left;
 }
 
 @media(min-width:460px){
-  .copy-div{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
   .txt-caracterizacion{
     display: none;
 }
-
 
 .h1g{
   display:block;
@@ -802,6 +799,11 @@ text-align:  left;
 }
 
 @media(max-width:460px){
+  .copy-div{
+    display: flex;
+    flex-direction: column;
+    
+  }
   .txt-val-leer{
     width: 800px;
     text-align: right;
