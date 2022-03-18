@@ -588,16 +588,73 @@ font-size: 20px;
 .c-aloj-politicas{
   display: flex;
   margin-left: 40px;
-
 }
 .c-normas-garantia{
 display: flex;
 margin-left: 40px;
+}
+.cont-valoraciones{
+  display: flex;
+  flex-direction: column;
+}
+.val1{
+  display:block;
+  width: 500px;
+  text-align: left;
+  height: 300px;
+  padding: 30px ;
+}
+.val2{
+  display:block;
+  width: 500px;
+text-align:  left;
 
+}
+.val3{
+  display:block;
+  width: 500px;
+  text-align: left;
+}
+.txt-val{
+  text-align: justify;
+  font-size: 20px;
+  position: relative;
+  bottom: 480px;
+  display: table;
+  height: 220px;
+  width: 1200px;
+  margin: 2rem auto;
+}
+.txt-val p{
+  color: blue;
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 15px;
+}
+.s{
+  text-align: left;
+  transform: scale(.18);
+  font-size: 20px;
+}
+.img{
+  transform: scale(.18);
+}
+.user{
+  position: relative;
+  right:220px;
+  bottom:200px;
+}
+.n-user{
+  position: relative;
+  bottom: 400px;
+  font-size: 30px;
 }
 @media(min-width:460px){
   .copy-div{
     display: flex;
+    flex-direction: column;
   }
   
   
@@ -605,9 +662,7 @@ margin-left: 40px;
     display: none;
 }
 
-.gallery-container{
-  margin-top: 15rem;
-}
+
 .h1g{
   display:block;
 }
@@ -632,21 +687,34 @@ margin-left: 40px;
 @media(max-width:460px){
 
   .gallery-container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows:  200px;
-    background-color: green;
-    width: 400px;
-    height: auto;
-    margin: 0;
-    padding: 20px;
-    grid-gap: 10px;
+    
+    width: 800px;
     
    }
-   
-   
-   
-
+   .txt-val{
+     width: 800px;
+   }
+   .cont-condiciones{
+     width: 800px;
+   }
+  .cont-descripcion-button-formulario{
+    width: 900px;
+  }
+  .cont-grid-servicios2{
+    margin-top: 0.1vh;
+    width: 1200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows:  200px;
+    grid-gap: 20px;
+    align-items: center;
+    margin-bottom: 500px;
+  }
+.button-hide{
+  position: relative;
+  bottom: 110vh;
+}
 
 }
 /* #seis{
@@ -684,7 +752,7 @@ margin-left: 40px;
     height: auto;
     margin: 0;
     justify-content: center;
-    width: 700px;
+    width: 900px;
     font-size: 60px;
     margin-top: 5%;
     font-size: 40px;
@@ -694,7 +762,6 @@ margin-left: 40px;
   margin-left: 50px;
   
  }
- 
 
 }
 @media(max-width:768px){
@@ -735,9 +802,6 @@ margin-left: 40px;
     
     }
     
-
-
-
 
 
 
