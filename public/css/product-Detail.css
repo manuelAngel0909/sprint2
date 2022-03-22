@@ -7,7 +7,7 @@
 body{
   font-family: "roboto";
   text-align: center;
-
+  background-image: radial-gradient(circle at -20.44% 56.16%, #ffffff 0, #ffffff 16.67%, #fefaf8 33.33%, #dae7ee 50%, #b7d4e6 66.67%, #99c1df 83.33%, #7eb0d9 100%);
 }
 .logo{
   width: 150px;
@@ -18,7 +18,7 @@ body{
 
 .main-header{
   padding: 3px;
-}
+  background-image: radial-gradient(circle at -20.44% 56.16%, #ffffff 0, #ffffff 16.67%, #fefaf8 33.33%, #dae7ee 50%, #b7d4e6 66.67%, #99c1df 83.33%, #7eb0d9 100%);}
 .nav-bar-arriba{
 max-width: 1200px;
 margin:left;
@@ -26,8 +26,7 @@ display: flex;
 justify-content: space-between;
 position: relative;
 align-items: flex-start;
-
-}
+background-image: radial-gradient(circle at -20.44% 56.16%, #ffffff 0, #ffffff 16.67%, #fefaf8 33.33%, #dae7ee 50%, #b7d4e6 66.67%, #99c1df 83.33%, #7eb0d9 100%);}
 
 
 .copy-div{
@@ -130,12 +129,14 @@ box-sizing: border-box;
 
 .nv2-enlace{
   background-color: salmon;
-  color: white;
+  color: rgb(43, 125, 180);
   padding: 5px;
   display: inline-block;
   text-decoration: none;
   margin-right: 10px;
   max-width: 25%;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
+
 }
 .nv2-enlace:hover{
   background-color: rgb(218, 228, 199);
@@ -208,7 +209,7 @@ box-sizing: border-box;
 }
 .sub-cont-formulario{
   display: none;
-  background-color:red;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
 }
 
 
@@ -500,8 +501,7 @@ font-size: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows:  200px;
-  background-color: green;
-  width: 1200px;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
   height: auto;
  margin-top: 20px;
   padding: 20px;
@@ -543,10 +543,11 @@ font-size: 20px;
 
 .cont-geo{
   width: 1000px;
-  transform: scale(.95);
+  transform: scale(.85);
   position: relative;
   bottom:180px;
-  
+  background-image: radial-gradient(circle at 8.59% 53.62%, #c3be93 0, #c5b98d 6.25%, #c7b386 12.5%, #c9ac7f 18.75%, #caa478 25%, #cb9b71 31.25%, #cb916a 37.5%, #cb8664 43.75%, #ca7a5f 50%, #c86d5c 56.25%, #c6615b 62.5%, #c4565c 68.75%, #c14c5f 75%, #bd4265 81.25%, #b93b6b 87.5%, #b33673 93.75%, #ac347c 100%);  width: 1200px;
+
 }
 
 .cot-gallery-geo{
@@ -555,6 +556,7 @@ font-size: 20px;
   align-items: center;
 }
 .cont-condiciones{
+  background-image: radial-gradient(circle at -20.44% 56.16%, #ffffff 0, #ffffff 16.67%, #fefaf8 33.33%, #dae7ee 50%, #b7d4e6 66.67%, #99c1df 83.33%, #7eb0d9 100%);
 
   display: flex;
   position: relative;
@@ -569,25 +571,28 @@ font-size: 20px;
   padding: 20px;
   width: 500px;
   margin: 10px 30px;
-}
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);}
 
 .c-politicas{
   border: red solid 2px;
   padding: 20px;
   width: 500px;
   margin: 10px 30px;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
 }
 .c-normas{
   border: red solid 2px;
   padding: 20px;
   width: 500px;
   margin: 10px 30px;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
 }
 .c-garantia{
   border: red solid 2px;
   padding: 20px;
   width: 500px;
   margin: 10px 30px;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
 }
 .c-aloj-politicas{
   display: flex;
@@ -596,6 +601,9 @@ font-size: 20px;
 .c-normas-garantia{
 display: flex;
 margin-left: 40px;
+}
+.div-c-cont-valoraciones{
+
 }
 .cont-valoraciones{
   display: flex;
@@ -636,6 +644,8 @@ text-align:  left;
   vertical-align: middle;
   font-size: 24px;
   padding: 15px;
+  background-image: radial-gradient(circle at -20.44% 56.16%, #ffffff 0, #ffffff 16.67%, #fefaf8 33.33%, #dae7ee 50%, #b7d4e6 66.67%, #99c1df 83.33%, #7eb0d9 100%);
+
 }
 .s{
   text-align: left;
@@ -678,7 +688,8 @@ text-align:  left;
   font-size: 24px;
   padding: 15px;
   text-align: center;
-  background-color: salmon;
+  background-image: radial-gradient(circle at -5.33% 29.86%, #fff8d2 0, #fdedc1 25%, #f7e2b0 50%, #f1d69f 75%, #eccb8f 100%);
+
 
 }
 .foot-cont{
@@ -689,6 +700,8 @@ text-align:  left;
   text-align: left;
   margin: 20px;
   padding: 20px;
+  background-image: radial-gradient(circle at -20.44% 56.16%, #ffffff 0, #ffffff 16.67%, #fefaf8 33.33%, #dae7ee 50%, #b7d4e6 66.67%, #99c1df 83.33%, #7eb0d9 100%);
+width: 1200px;
 }
 .foot-a{
   width: 400px;
@@ -805,7 +818,7 @@ text-align:  left;
     
   }
   .txt-val-leer{
-    width: 800px;
+    width: 1100px;
     text-align: right;
     font-size: 20px;
   }
@@ -815,10 +828,10 @@ text-align:  left;
     
    }
    .txt-val{
-     width: 800px;
+     width: 1100px;
    }
    .cont-condiciones{
-     width: 800px;
+     width: 1200px;
    }
   .cont-descripcion-button-formulario{
     width: 900px;
